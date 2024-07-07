@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="Login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+
+    <form action="">
+
+    <div id="login" class="login">
+        <div id="login2">
+        <div id="firstline"><label for="" id="notreg">Not Registered? &nbsp;<a href="Registration.html" id="reg">Click Here to Register</a></label>
+         </div>
+     
+           <!-- for username -->
+         <div id="un">
+                <label for="textfield1" id="bold">Username/Email <sup id="star">*</sup> : </label><br>
+                <input type="text" placeholder= "Username/Email" id="textfield1" required minlength="5">
+         </div>
+       
+          <!-- for paass -->
+         <div class="pass">
+                <label for="textfield2" id="bold2">Password<sup id="star">*</sup> : </label><br>
+                <input type="text" placeholder= "Password" id="textfield2" required>
+         </div>
+
+         <div id="captcha"></div>
+         <!-- image code  -->
+
+         <div class="code">
+                <label for="code" id="bold2">Image Code<sup id="star">*</sup> : </label><br>
+                <input type="text" id="code" required>
+         </div>
+         
+         <!-- checkbox + forgetpass -->
+         <div class="check_forget">
+            <div id="ch_box">
+                         <!-- checkbox -->
+                <input type="checkbox" id="che" required>
+            <label for="che" id="bold2" id="rem">Remember me</label>
+            </div>
+        <!-- Forget pass -->
+           <div id="bhulgaya">
+             <a href="Forgetpass.html" id="for" >Forget Password?</a>
+            </div>
+        </div>
+
+        <div id="button">  
+                <a href="" > <input type="submit" value="Sign In"  id="login3">
+                </a>
+        </div>
+        <!-- <input type="submit" class="login_button button-primary" value="Sign In" id="login">
+        <input type="submit" class="login_button button-primary" value="Sign In" id="login"> -->
+
+        <!-- <div id="button">
+       <a href="" > <input type="submit" value="Sign In"  id="login3">
+       </a>
+        </div>
+        -->
+
+        </div>
+
+    </form>
+    </div>
+
+    
+    
+</body>
+</html>

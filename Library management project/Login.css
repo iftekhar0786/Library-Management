@@ -1,0 +1,192 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-image: url(loginpagebackgrnd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login{
+    height: 440px;
+    width: 320px;
+    background-color: #ffffff;
+    opacity: 0.9;
+    margin: 50px auto;
+    border-radius: 3%;
+}
+#login2{
+    height: 440px;
+    width: 300px;
+    background-color: #ffffff;
+    /* border: 2px red solid; */
+    opacity: 0.7;
+    margin: 50px auto;
+}
+
+#firstline{
+    height: 40px;
+    width: 298px;
+    /* border: 2px solid blue; */
+    padding-top: 10px;
+}
+
+#notreg{
+    padding-left: 15px;
+    padding-top: 100px;
+}
+
+#reg{
+    color: #009999;
+    text-decoration: none;
+}
+
+#un{
+    height: 60px;
+    width: 296px;
+    /* border: 2px solid rgb(219, 19, 5); */
+    margin-top: 15px;
+}
+#bold{
+    font-weight:900;
+    color: black;
+}
+#star{
+    color: red;
+}
+#textfield1{
+    border: 2px #009999 solid ;
+    height: 38px;
+    width: 296px;
+    box-shadow: 0px 0px 4px black;
+    padding-left: 10px;
+    /* border-radius: 5%; */
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    outline: none;  
+}
+
+.pass{
+    height: 60px;
+    width: 298px;
+    /* border: 2px solid rgb(1, 4, 20); */
+    margin-top: 15px;
+}
+
+#bold2{
+    font-weight:900;
+    color: black;
+}
+
+#textfield2{
+    border: 2px #009999 solid ;
+    height: 38px;
+    width: 296px;
+    box-shadow: 0px 0px 4px black;
+    padding-left: 10px;
+    /* border-radius: 5%; */
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    outline: none;  
+}
+
+#captcha{
+    height: 38px;
+    width: 296px;
+    /* border: 2px solid goldenrod; */
+    margin-top: 15px;
+    background-image: url(captcha.png);
+    background-size: cover;
+}
+
+.code{
+    height: 60px;
+    width: 298px;
+    /* border: 2px solid rgb(1, 4, 20); */
+    margin-top: 15px;
+}
+
+#code{
+    border: 2px #009999 solid ;
+    height: 38px;
+    width: 296px;
+    box-shadow: 0px 0px 4px black;
+    padding-left: 10px;
+    /* border-radius: 5%; */
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    outline: none;  
+}
+
+.check_forget{
+    /* border: 2px #021260 solid ; */
+    height: 38px;
+    width: 310px;
+    margin-top: 6px;
+    display: flex;
+
+}
+
+#ch_box{
+    height: 25px;
+    width: 180px;
+    /* border: 2px dotted blueviolet; */
+    margin-top: 5px;
+}
+
+#che{
+    color: black;
+    font-size: 30px;
+}
+
+#forget{
+    height: 30px;
+    width: 120px;
+    /* border: 2px dotted blueviolet; */
+}
+
+#bhulgaya{
+    height:30px;
+    width: 180px;
+    /* border: 2px solid chartreuse; */
+    margin-left: 36px;
+    margin-top: 5px;
+}
+#for{
+    text-decoration:none ;
+    color: #009999;
+}
+
+/* #button{
+    height: 40px;
+    width: 90px;
+    border: rgb(6, 136, 242) solid 2px;
+    margin: 10px 200px;
+    background-color: rgb(6, 136, 242) ;
+    color: white;
+    padding-left: 17px;
+    padding-top: 7px;
+    box-shadow: 0px 0px 4px rgb(6, 136, 242);
+    border-radius: 3px;
+} */
+
+#login3{
+    font-size: 28px;
+    margin-bottom: 10px;
+    background-color: rgb(6, 136, 242) ;
+    margin-left: 190px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 4px rgb(6, 136, 242);
+    color: white;
+    border: none;
+    outline: none;
+
+}
+
+

@@ -1,0 +1,759 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    height: 70px;
+    width: auto;
+    /* border: 2px solid rgb(210, 49, 49); */
+    background-color: black;
+    position: relative;
+    display: flex;
+}
+
+#logo{
+    height: 66px;
+    width: 170px;
+    background-image: url(logo.png);
+    position: absolute;
+    left: 25px;
+    top: 7px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* border-radius: 10%; */
+}
+
+.nav{
+    height: 66px;
+    width: 900px;
+    /* border: 2px red solid; */
+    position: absolute;
+    display: flex;
+    left: 250px;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: row;
+    
+}
+
+.nav>a>div{
+    color: white;
+    height: 60px;
+    width: 150px;
+    /* border: 2px solid blue; */
+    font-size: 13px;
+    text-align: center;
+    padding-top: 21px;
+    /* justify-content: space-evenly; */
+    cursor: pointer;
+}
+.nav>a>div:hover{
+    color: rgb(30, 189, 181);
+    
+}
+
+.nav>a{
+    text-decoration: none;
+}
+
+#login{
+    height:66px ;
+    width: 100px;
+    /* border: yellow 2px solid; */
+    margin-left: 1290px;
+    display: flex;
+    cursor: pointer;
+}
+
+#text1{
+    height:60px ;
+    width: 60px;
+    /* border: rgb(13, 184, 150) 4px solid; */
+    padding-top: 20px;
+    color: white;
+    text-decoration: none;
+}
+#text1:hover{
+    color: rgb(30, 189, 181);
+}
+
+#font{
+    height:60px ;
+    width: 40px;
+    /* border: rgb(217, 14, 149) 4px solid; */
+    padding-top: 20px;
+    color: white;
+}
+#q:hover{
+    color: rgb(30, 189, 181);
+}
+#q{
+    text-decoration: none;
+}
+
+#reg{
+    height: 68px;
+    width: 100px;
+    /* border: 2px rgb(170, 198, 9) solid; */
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    padding-top: 20px;
+    padding-left: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#reg:hover{
+    background-color: rgb(12, 158, 187);
+}
+
+
+#homepic{
+    height: 450px;
+    width: auto;
+    border-bottom: 7px solid rgb(205, 48, 17);
+    background-image: url(homepagepic.jpg);
+   
+}
+
+#header{
+    height: 140px;
+    width: auto;
+    /* border: 2px red solid; */
+    
+}
+
+.container{
+    height: 600px;
+    width: auto;
+    /* border: 4px solid black; */
+    display: flex;
+    position: relative;
+    margin-top: 35px;
+
+}
+
+#left{
+    height: 594px;
+    width: 600px;
+    /* border: 2px solid red; */
+    /* background-color: aquamarine; */
+    display: flex;
+    border-right: none;
+}
+
+#right{
+    height: 594px;
+    width: 1000px;
+    /* border: 2px solid rgb(15, 4, 4); */
+    /* background-color: aqua; */
+   border-bottom: none;
+    /* border-left: 4px black solid; */
+    border-right: none;
+    border-top: none;
+}
+
+#reddyPic{
+    height: 250px;
+    width: 170px;
+    background-image: url(g_kishan_reddy.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+#abtreddy{
+        height: 200px;
+        width: 200px;
+        /* border: 2px solid rebeccapurple; */
+        position: absolute;
+       left: 280px;
+        top: 100px;
+    }
+
+ #name{
+    font-size: 27px;
+ } 
+ #Minister{
+    font-size: 17px;
+ }
+ #heading{
+    font-size: 30px;
+    height: 60px;
+    width: 400px;
+    /* border: 2px red solid; */
+    margin-top: 100px;
+    margin-left: 20px;
+ }  
+
+ #p1{
+    font-size: 20px;
+    height: 180px;
+    width: 700px;
+    /* border: 2px rgb(0, 255, 68) solid; */
+    margin-left: 20px;
+    text-indent: 40px;
+    word-spacing: 8px;
+    line-height: 1.3;
+    text-align: justify;
+    color: rgb(66, 63, 63);
+
+ }  
+
+
+ #p2{
+    font-size: 20px;
+    height: 200px;
+    width: 700px;
+    /* border: 2px rgb(0, 255, 68) solid; */
+    margin-left: 20px;
+    text-indent: 40px;
+    word-spacing: 8px;
+    line-height: 1.3;
+    text-align: justify;  
+    color: rgb(66, 63, 63); 
+ } 
+ 
+ #indianculture{
+    height: 250px;
+    width: 400px;
+    /* border: 2px blue solid; */
+    margin-top: 300px;
+    margin-left: 100px;
+    background-image: url(IndianCulture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+.container2{
+    height: 700px;
+    width: auto;
+    /* border: 4px tomato solid; */
+    margin-top: 55px;
+    display: flex;
+}
+
+#left2{
+   height: 694px;
+   width: 760px;
+   /* border: 4px solid palegreen; */
+   background-color: rgb(171, 206, 171);
+   background-image: url(newsletter.png);
+}
+
+#right2{
+    height: 694px;
+    width: 774px;
+    /* border: 4px solid rgb(1, 10, 1); */
+    /* background-color: rgb(117, 192, 188); */
+    background-image: linear-gradient(white,rgb(221, 95, 95));
+  
+ }
+ #news{
+    padding-left: 25px;
+    font-size: 22px;
+    color: rgb(78, 78, 236);
+ }
+ 
+ #newss{
+    /* color: blue; */
+    padding-top: 40px;
+    font-size: 50px;
+    background-image: linear-gradient(rgb(0, 0, 0),red);
+
+ }
+
+ .container3{
+    height: 600px;
+    width: auto;
+    /* border: 4px solid rgb(201, 208, 9); */
+    display: flex;
+    position: relative;
+    margin-top: 70px;
+    background-color: azure;
+}
+
+#left3{
+    height: 400px;
+    width: 500px;
+    border: 5px solid rgb(13, 13, 13);
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    /* background-color: aquamarine; */
+    display: flex;
+    
+}
+
+.ajay{
+    height: 380px;
+    width: 270px;
+    /* border: 4px solid rgb(43, 16, 138); */
+    position: relative;
+    left: 140px;
+}
+
+
+#ajaypic{
+    height: 320px;
+    width: 244px;
+    /* border: 4px solid rgb(9, 4, 82); */
+    background-image: url(ajay.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+
+}
+
+#abtajay{
+    height:100px;
+    width:264px;
+    /* border: 3px red solid; */
+    position: absolute;
+    top: 330px;
+    padding-left: 30px;
+
+}
+#right3{
+    height: 594px;
+    width: 900px;
+    /* border: 2px solid rgb(15, 4, 4); */
+    /* background-color: aqua; */
+    margin-left: 80px;
+}
+
+#desk{
+    padding-left: 100px;
+}
+
+.para{
+    height: 510px;
+    width: 900px;
+    /* border: 2px red solid; */
+    position: relative;
+}
+
+#para1{
+    height: 250px;
+    width: 900px;
+    /* border: 2px blueviolet solid; */
+    position: absolute;
+    font-size: 28px;
+    text-align: justify;
+    color: rgb(66, 63, 63);
+    text-indent: 40px;
+}
+
+#para2{
+    height: 250px;
+    width: 900px;
+    /* border: 2px rgb(6, 196, 132) solid; */
+    position: absolute;
+    top: 270px;
+    font-size: 28px;
+    text-align: justify;
+    color: rgb(66, 63, 63);
+    text-indent: 40px;
+}
+
+#imageflex{
+    height: 400px;
+    width: 650px;
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+#imageflex>div>img{
+    height: 176px;
+    width: 300px;
+    /* border: 1px solid red; */
+    position: absolute;
+}
+
+#a1{
+    top: 20px;
+    left: 20px;
+    background-size: cover;
+
+}
+
+#a2{
+    top: 20px;
+    right: 20px;
+}
+
+#a3{
+    bottom: 20px;
+    left: 20px;
+}
+
+#a4{
+    bottom: 20px;
+    right: 20px;
+}
+
+#a1:hover{
+    margin-top: -5px;
+}
+#a2:hover{
+    margin-right: -5px;
+}
+#a3:hover{
+    margin-left: -5px;
+}
+#a4:hover{
+    margin-bottom: -5px;
+}
+
+#container4{
+    display: flex;
+   
+}
+
+#More{
+    text-decoration: none;
+    border: none;
+}
+#right4{
+    height: 400px;
+    width: 600px;
+    /* border: 4px solid black; */
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    position: relative;
+    margin-left: 100px;
+}
+
+#gal{
+    padding-left: 100px;
+    font-size: 50px;
+    color: rgb(57, 54, 50);
+}
+
+#para3{
+    height: 130px;
+    width: 400px;
+    /* border: solid red 2px; */
+    position: absolute;
+    left: 100px;
+    font-size: 23px;
+    text-align: justify;
+    color: rgb(57, 54, 50);
+}
+#para4{
+    height: 120px;
+    width: 400px;
+    /* border: solid rgb(9, 22, 87) 2px; */
+    position: absolute;
+    left: 100px;
+    bottom: 20px;
+    font-size: 23px;
+    text-align: justify;
+    color: rgb(57, 54, 50);
+}
+
+.More{
+    height: 50px;
+    width: 100px;
+    /* border: 2px black solid; */
+    margin-left: 500px;
+}
+
+#more{
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(14, 85, 156);
+}
+
+#yellow{
+    height: 80px;
+    width: auto;
+    border: 2px solid hwb(46 8% 7%);
+    background-color: hwb(46 8% 7%);
+}
+
+.upfooter{
+    height: 250px;
+    width: auto;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+
+.upfooter>div{
+    /* border: 2px solid red; */
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+#pic1{
+    height: 200px;
+    width: 250px;
+    background-image: url(national\ portal.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+#pic2 {
+    height: 200px;
+    width: 250px;
+
+    background-image: url(Gem.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+#pic3{
+    height: 200px;
+    width: 250px;
+
+    background-image: url(azadi.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+#pic4{
+    height: 200px;
+    width: 250px;
+
+    background-image: url(increbleIndia.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+#pic5{
+    height: 200px;
+    width: 250px;
+
+    background-image: url(network.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* footer code starting */
+
+
+footer{
+    height: 500px;
+    width: auto;
+    /* border: 2px solid rgb(46, 39, 39); */
+    background-color: rgb(46, 39, 39);
+    display: flex;
+}
+
+#left5{
+    height: 450px;
+    width: 300px;
+    /* border: 2px solid white; */
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#list{
+    color: white;
+    font-size: 22px;
+}
+
+#mid{
+    height: 300px;
+    width: 300px;
+    /* border: 4px solid white; */
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+#list2{
+    color: white;
+    font-size: 22px;
+    padding-left: 33px;
+}
+
+#logo2{
+    height: 70px;
+    width: 170px;
+    /* border: 2px white solid; */
+    margin-left: 40px;
+    background-image: url(national.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+#right5{
+    height: 450px;
+    width: 550px;
+    /* border: 2px solid white; */
+    margin-left: 100px;
+    margin-top: 20px;
+    display: flex;
+}
+
+#feedback{
+    color: beige;
+    padding-left: 120px;
+}
+#inp1{
+    height: 50px;
+    width: 200px;
+    margin-left: 49px;
+    margin-top: 15px;
+    padding-left: 15px;
+    outline: none;
+}
+
+#inp2{
+    height: 50px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 15px;
+    padding-left: 15px;
+    outline: none;
+
+
+}
+
+#foot{
+    display: flex;
+}
+
+#textarea{
+    margin-left: 50px;
+    margin-top: 15px;
+    padding-left: 15px;
+    outline: none;
+    width: 450px;
+}
+
+#submit{
+    height: 30px;
+    width: 70px;
+    background-color: blue;
+    margin-left: 50px;
+    margin-top: 15px;
+    /* outline: none; */
+    cursor: pointer;
+}
+
+#icon{
+    height: 70px;
+    width: 150px;
+    /* border: 2px red solid; */
+    position: relative;
+    bottom: 25px;
+}
+
+#fb{
+    height: 44px;
+    width: 44px;
+    /* border: 2px solid rgb(180, 224, 7); */
+    position: absolute;
+}
+
+#ifb{
+    background-size: contain;
+    font-size: 42px;
+    color: blue;
+}
+
+#twt{
+    height: 44px;
+    width: 44px;
+    /* border: 2px solid rgb(70, 224, 14); */
+    position: absolute;
+    left: 100px;
+}
+
+#itwt{
+    background-size: contain;
+    font-size: 42px;
+    color: rgb(10, 88, 111);
+}
+
+#yt{
+    height: 44px;
+    width: 44px;
+    /* border: 2px solid rgb(180, 224, 7); */
+    position: absolute;
+    left: 49px;
+}
+
+#iyt{
+    background-size: contain;
+    font-size: 38px;
+    color: red;
+}
+
+#red{
+    height: 100px;
+    width: auto;
+    /* border:  2px red solid; */
+    background-color:rgb(46, 39, 39);
+    position: relative;
+}
+
+#footer2{
+    height: 96px;
+    width: 1320px;
+    /* border: solid blue 2px; */
+    margin-left: 100px;
+    display: flex;
+   
+}
+
+#copyright{
+    color: red;
+}
+
+#para5{
+    color: white;
+    font-size: 19px;
+    text-justify: auto;
+    font-style: italic;
+}
+
+#lastfooter{
+    height: 80px;
+    width: auto;
+    border: 2px solid rgb(240, 95, 64);
+    background-color: rgb(240, 95, 64);
+}
+#block{
+    height: 60px;
+    width: 500px;
+    /* border: 2px solid black; */
+    margin-left: 480px;
+    margin-top: 10px;
+}
+
+#line1{
+    color: white;
+    font-size: 19px;
+}
+#line2{
+    color: white;
+    font-size: 19px;
+    padding-left: 35px;
+}
+
+#nl{
+    color: yellow;
+}
+#small{
+    font-size: small;
+}
+

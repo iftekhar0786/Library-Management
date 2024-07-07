@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+    <link rel="stylesheet" href="Registration.css">
+</head>
+<body>
+
+    <header>
+         <div id="logo"></div>
+ 
+         <div id="nav" class="nav">
+            <a href="project.html"><div id="home">HOME</div></a>
+            <a href=""><div id="abtus">ABOUT US</div></a>
+            <a href=""><div id="resourse"> ADD BOOK</div></a>
+            <a href="contactus.html"><div id="contact">CONTACT US</div></a>
+            <a href="admin.html"> <div id="digital">ADMIN LOGIN</div></a>
+         </div>
+ 
+         <div id="login">
+            <a href="Login.html"> <div id="text1" id="q">LOGIN</div></a>
+             <div id="font" id="q"><i class="fa-solid fa-user" ></i></div>
+         </div>
+ 
+         <div id="reg">REGISTER</div>
+ 
+     </header>
+
+
+     <!-- REG Form Starting -->
+
+     <form action="">
+
+     <div id="main" class="main">
+        <div id="main2">
+
+    
+            <h1 id="heading_reg">REGISTRATION</h1> <br>
+            <p id="upred">* are required fields <br> <br>For Photo, only .jpg and .png files are accepted.
+                 Image resolution must not greater than 2048px X 1024px. File size must not greater than 1MB.
+                 The photo may not be previewed,but it will be uploaded if the criteria are fulfilled.
+                For documents, only pdf files are accepted & file size must not greater than 1MB</p><br><br>
+        <div id="heding2">
+                    <p id="heding_written">राष्ट्रीय पुस्तकालय, कलकाता <br>
+                        NATIONAL LIBRARY, CALCUTTA </p>
+
+                        <p id="ticket"> प्रवेश टिकट के लिए आवेदन पत्र <br>
+                        APPLICATION FORM FOR ADMISSION TICKET</p>
+            </div>
+
+                <!-- main form starting -->
+
+              
+
+                <div id="full_name">
+                    <div>Name in full <sup id="upred">*</sup>:</div>
+                    <div><input type="text" placeholder="Enter your First Name" id="input" ></div>
+                    <div><input type="text" placeholder="Enter your Middle Name" id="input"></div>
+                    <div><input type="text" placeholder="Enter your Last Name" id="input"></div>
+                </div>
+
+                <!-- Nationality -->
+
+                <div class="national">
+                    <div id="a">Nationality<sup id="upred">*</sup>:</div>
+                    <div id="nat"><input type="text" placeholder="Enter your Nationality" id="input"></div>
+                </div>
+
+                <!-- DOB -->
+
+                <div id="dob">
+                    <div id="a">Date Of Birth <sup id="upred">*</sup>:</div>
+                    <div id="nat"> 
+                        <input type="date" id="b">
+                        <label for="" id="proof">Proof File</label>
+                        <input type="file" id="file_choose">
+
+                    </div>
+                </div>
+
+                
+                  <!-- Father name -->
+
+                  <div class="F_name">
+                    <div id="a">Father Name<sup id="upred">*</sup>:</div>
+                    <div id="nat"><input type="text" placeholder="Enter your Father Name" id="input"></div>
+                </div>
+
+                <!-- Address -->
+
+                <div class="Address">
+                    <div id="a">Full Address<sup id="upred">*</sup>:</div>
+                    <div id="add"><input type="text" placeholder="Enter your Address" id="add2"   ></div>
+                </div>
+
+                
+                <!-- Education  -->
+
+                <div class="education">
+                    <div id="a">Education<sup id="upred">*</sup>:</div>
+                    <select name="select your education" id="dropdown">
+
+                        <option value="">B.tech</option>
+                        <option value="">BE</option>
+                        <option value="">M.tech</option>
+                        <option value="">BCA</option>
+                        <option value="">MCA</option>
+                        <option value="">B.sc</option>
+                        <option value="">M.sc</option>
+                        <option value="">Phd</option>
+                    
+                    </select>
+                   
+                </div>
+
+                 <!--Occupation -->
+
+                 <div class="F_name">
+                    <div id="a">Occupation<sup id="upred"></sup>:</div>
+                    <div id="nat"><input type="text" placeholder="Enter your Occupation" id="input"></div>
+                </div>
+
+                   <!--Designation -->
+
+                   <div class="F_name">
+                    <div id="a">Designation<sup id="upred"></sup>:</div>
+                    <div id="nat"><input type="text" placeholder="Enter your Designation" id="input"></div>
+                   </div>
+
+                      <!--Email -->
+
+                 <div class="F_name">
+                    <div id="a">Email<sup id="upred">*</sup>:</div>
+                    <div id="nat"><input type="email" placeholder="Enter your Email Address" minlength="8" maxlength="20" id="input"></div>
+                </div>
+
+                   <!--Mob no -->
+
+                   <div class="F_name">
+                    <div id="a">Mobile<sup id="upred">*</sup>:</div>
+                    <div id="nat"><input type="number" placeholder="Enter your Mob no" id="input"></div>
+                </div>
+
+                <!-- Declaration -->
+
+                <div class="dec">
+                    <input type="checkbox" id="ch"  > <sup id="upred">*</sup>
+                    <label for="ch" id="ch">I hereby declare that I have read and undertake to abide by the regulation relating to the Reading Room </label>
+                </div>
+
+                <!-- date and signature -->
+                <div class="date_sig">
+                    <div id="date2">
+                        <label for="d" id="x">Date:</label>
+                        <input type="date" id="d" >
+                    </div>
+                    <div id="sig">
+                       <div id="sigr"> <label for="">Signature:</label></div>
+                        <div id="sigline">
+                            <input type="file" id="proof">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- office seal -->
+                <div id="seal">Office Seal:</div>
+
+                <!-- Register Button -->
+                <!-- <div id="reg_button">   -->
+                    <a href="Login.html" id="login3">Register</a>
+                 <!-- </div> -->       
+
+        </div>
+
+     </div>
+
+    </form>
+
+     <!-- footer -->
+
+     
+    <footer>
+
+        <div id="left5">
+           <ul type="none" id="list">
+            <li>Home</li><br>
+            <li>About us</li><br>
+            <li>Library Catalogue</li><br>
+            <li>Digitized Books</li><br>
+            <li>RTI</li><br>
+            <li>Recruitment Rule & Vacancy Position</li><br>
+            <li>Order/Circular</li><br>
+            <li>Contact us</li><br>
+           </ul>
+
+           <div id="icon">
+           <a href="https://www.youtube.com/channel/UCu7RuHVcuY5HAxF4ymKMylw?view_as=subscriber"> <div id="yt"><i class="fa-brands fa-youtube" id="iyt"></i></div></a>
+            <a href="https://twitter.com/NationalLib_GoI"><div id="twt"><i class="fa-brands fa-square-twitter" id="itwt"></i></div></a>
+           <a href="https://www.facebook.com/nationallibrary.goi?modal=admin_todo_tour"> <div id="fb"><i class="fa-brands fa-square-facebook" id="ifb"></i></div></a>
+           </div>
+
+        </div>
+        <div id="mid">
+            <ul type="none" id="list2">
+                <li>Tenders</li><br>
+                <li>For Publishers</li><br>
+                <li>National Library Blog</li><br>
+               </ul>
+
+               <div id="logo2"></div>
+
+
+        </div>
+        <div id="right5">
+
+            <form action="">
+                <h1 id="feedback">FEEDBACK TO US</h1>
+               <div id="foot"> <input type="text" placeholder="Name" id="inp1">
+                <input type="text" placeholder="yourname@company.com" id="inp2">
+               </div>
+
+               <textarea name="" id="textarea" cols="30" rows="10" placeholder="Message"></textarea>
+               <div id="sub"> <input type="submit" name="" id="submit"></div>
+               
+            </form>
+
+        </div>
+
+
+    </footer>
+
+    <div id="red"> 
+        <div id="footer2">
+            
+            <p id="para5"> <span id="copyright">COPYRIGHT & DISCLAIMER:</span>No Part of this site can be copied or reproduced in any form, excepting for personal information, without the written permission of the Director General of the National Library, India, Kolkata (Calcutta). While all efforts have been made to make this website as authentic as possible, The National Library authority do not own any responsibility to anybody for any loss or damage, owing to the use of any information caused by any shortcoming, defect or inaccuracy in the information from this web site.</p>
+        </div>
+    </div>
+
+    <div id="lastfooter">
+        <div id="block">
+            <p id="line1"> © 2018 ‐ 2023, Developed by <span id="nl">National Library</span> [Hosted By NIC]</p>
+            <p id="line2"><span id="small">Page rendered in 0.0337 seconds.</span> Last Updated on: Jan 01,2023</p>
+        </div>
+    </div>
+
+    
+</body>
+</html>
